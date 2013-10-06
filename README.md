@@ -10,6 +10,8 @@ An inactivity tracker; sitting kills.
 * Add bold font to title / custom graphics?
 * Make sure it is able to track in the background
 * Give an average sit time per day
+* Figure out how to generate .apk and put on Google Play store
+* Put up couchometer.com (simple jekyll bootstrapped theme)
 
 ##Far off future features?
 * Syncing to the cloud like rescuetime.com
