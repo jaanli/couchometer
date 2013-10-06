@@ -14,4 +14,4 @@ An inactivity tracker; sitting kills.
 ##Far off future features?
 * Syncing to the cloud like rescuetime.com
 
-Made with <3 in a few short hours in Boston.
+Made with ♥ in a few short hours in Boston.
