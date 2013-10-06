@@ -1,0 +1,101 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">0dp</item>
+        <item name="android:windowBackground">@color/offwhite</item>
+    </style>
+
+    <!-- +++++++++++++++++++++ Base Styles +++++++++++++++++++++ -->
+
+
+    <!-- ListView style -->
+    <style name="CustomListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:divider">@drawable/line</item>
+        <item name="android:dividerHeight">@dimen/divider_size</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="CustomButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/tex_size_large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/ui_text_selector</item>
+    </style>
+
+    <!-- EditText style -->
+    <style name="CustomEditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">@dimen/tex_size_xlarge</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/dim_10</item>
+    </style>
+    
+        <style name="CustomPrintText" parent="@android:style/Widget.TextView">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">@dimen/tex_size_xlarge</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/dim_10</item>
+    </style>
+
+    <!-- CheckBox style -->
+    <style name="CustomCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">@dimen/tex_size_large</item>
+        <item name="android:textColor">@color/gray_35</item>
+    </style>
+
+    <!-- RadioButton style -->
+    <style name="CustomRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/tex_size_large</item>
+        <item name="android:textColor">@color/gray_35</item>
+    </style>
+
+    <!-- ProgressBar style -->
+    <style name="CustomProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_height">@dimen/progressbar_height</item>
+        <item name="android:minHeight">@dimen/progressbar_height</item>
+    </style>
+
+    <!-- SeekBar style -->
+    <style name="CustomSeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">@dimen/seekbar_height</item>
+        <item name="android:minHeight">@dimen/seekbar_height</item>
+    </style>
+
+    <!-- +++++++++++++++++++++ End of Base Styles +++++++++++++++++++++ -->
+
+
+    
+    <!-- +++++++++++++++++++++ Orange Styles +++++++++++++++++++++ -->
+    <!-- Orange button Style -->
+    <style name="Button_Orange" parent="CustomButton">
+        <item name="android:background">@drawable/ui_button_orange</item>
+    </style>
+
+    <!-- Orange EditText style -->
+    <style name="PrintText_Orange" parent="CustomPrintText">
+        <item name="android:background">@drawable/ui_border_orange</item>
+        <!-- <item name="android:textColor">@drawable/ui_text_selector_orange</item> -->
+    </style>
+
+
+
+    <!-- Orange ProgressBar style -->
+    <style name="ProgressBar_Orange" parent="CustomProgressBar">
+        <item name="android:progressDrawable">@drawable/ui_progress_orange</item>
+    </style>
+
+    <!-- Orange SeekBar style -->
+    <style name="SeekBar_Orange" parent="CustomSeekBar">
+        <item name="android:progressDrawable">@drawable/ui_progress_orange</item>
+        <item name="android:thumb">@drawable/ui_seekbar_handel_orange</item>
+    </style>
+
+    <!-- +++++++++++++++++++++ End of Orange Styles +++++++++++++++++++++ -->
+
+
+    
+
+</resources>

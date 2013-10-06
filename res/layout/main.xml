@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/header"
+        layout="@layout/subheader_layout_orange" />
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dim_20" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_20"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:text="@string/txt_sitting"
+                android:textColor="@color/gray_35"                
+                android:textSize="@dimen/tex_size_xxlarge" />
+
+            <TextView
+                android:id="@+id/editText1"
+                style="@style/PrintText_Orange"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_50"
+                android:layout_marginBottom="@dimen/dim_60"
+                android:textColor="@color/gray_35"                
+                android:text="@string/txt_time"
+                android:ems="10" />
+            
+            <TextView
+                android:id="@+id/seekbarprint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dim_20"
+                android:text="@string/txt_interval"
+                android:textColor="@color/gray_35"                
+                android:textSize="@dimen/tex_size_xxlarge" />            
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                style="@style/SeekBar_Orange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dim_60"
+                android:max="90"
+                android:progress="25" />
+    <Button
+                    android:id="@+id/button1"
+                    style="@style/Button_Orange"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_50"
+                    android:layout_marginBottom="@dimen/dim_20"
+                    android:layout_marginTop="@dimen/dim_20"
+                    android:layout_weight="1"
+                    android:tag="bold"
+                    android:text="@string/btn_name" />
+	<!-- 
+	<TextView 
+		android:id="@+id/xcoor"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:text="X Coordinate: "
+		android:textColor="@color/black"
+	/>
+	
+	<TextView 
+		android:id="@+id/ycoor"
+		android:text="Y Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+
+	<TextView 
+		android:id="@+id/zcoor"
+		android:text="Z Coordinate: "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+
+	<TextView 
+		android:id="@+id/ttime"
+		android:text="Current Time: "
+		android:gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/> -->
+	</LinearLayout>
+</LinearLayout>

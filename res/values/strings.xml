@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlatDesign</string>
+    <string name="main_header">FLAT CONTROLS</string>
+    <string name="btn_name">Pause</string>
+    <string name="txt_some_header">Couchometer</string>
+    <string name="txt_sitting">Time sat today:</string>
+    <string name="txt_time">2 hours and 23 minutes</string>
+    <string name="txt_interval">Active breaks every: 20 minutes</string>
+    <string name="txt_yes">YES</string>
+    <string name="txt_no">NO</string>
+    <string name="txt_maybe">MAYBE</string>
+    <string name="txt_android">Adroid</string>
+    <string name="txt_ios">iOS</string>
+    <string name="desc"></string>
+    <string name="action_settings">Action Settings Strings</string>
+
+</resources>

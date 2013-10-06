@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="transparent">#00000000</color>    
+    <color name="white">#ffffff</color>
+    <color name="offwhite">#ece8e1</color>
+    <color name="black">#000000</color>
+    <!-- Gray Colors: extension gray_XXX stand for rgb value 
+    because in gray all of them are equal --> 
+    <color name="gray_215">#d7d4cc</color>   
+    <color name="gray_189">#bdbdbd</color>
+    <color name="gray_167">#a7a7a7</color>
+    <color name="gray_79">#4f4f4f</color>
+    <color name="gray_46">#2e2e2e</color>
+    <color name="gray_35">#232323</color>
+    <!-- Green Colors -->
+    <color name="green">#1f7f5c</color>
+    <color name="dark_green">#19664a</color>
+    <!-- Red Colors -->
+    <color name="red">#e56c69</color>
+    <color name="dark_red">#b75654</color>
+    <!-- Yellow Colors -->
+    <color name="yellow">#dba571</color>
+    <color name="dark_yellow">#af845a</color>
+    <!-- Blue Colors -->
+    <color name="blue">#5a9aa8</color>
+    <color name="dark_blue">#487b86</color>
+    <!-- Purple Colors -->
+    <color name="purple">#6a5a8c</color>
+    <color name="dark_purple">#554870</color>
+    <!-- Lilac Colors -->
+    <color name="lilac">#8c5d79</color>
+    <color name="dark_lilac">#704a61</color>
+     <!-- Orange Colors -->
+    <color name="orange">#de8650</color>
+    <color name="dark_orange">#c0774b</color>    
+</resources>
