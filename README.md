@@ -17,3 +17,5 @@ An inactivity tracker; sitting kills.
 * Syncing to the cloud like rescuetime.com
 
 Made with ♥ in a few short hours in Boston by Hoonie & Jaan.
+
+(C) 2013 Couchometer LLC (Limited Laziness Company).
