@@ -14,4 +14,4 @@ An inactivity tracker; sitting kills.
 
 Made with ♥ in a few short hours in Boston by Hoonie & Jaan.
 
-(C) 2013 Couchometer LLC (Limited Laziness Company).
+(C) 2013-2014 Couchometer LLC (Limited Laziness Company).
