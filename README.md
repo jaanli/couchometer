@@ -9,9 +9,9 @@ An inactivity tracker; sitting kills.
 * Fix pause/resume button
 * Add bold font to title / custom graphics?
 * Make sure it is able to track in the background
-* Generate .apk and put on Google Play store
+* Generate .apk and put on Google Play
 
 
-Made with ♥ in a few short hours in Boston by Hoonie & Jaan.
+Made with ♥ in a few short hours in Boston by Hoonie & Jaan. Many thanks to Maryse for the name!
 
 (C) 2013-2014 Couchometer LLC (Limited Laziness Company).
