@@ -9,13 +9,15 @@ However, apart from expensive accelerometer-clad wristbands (c.f. Fitbit), no si
 
 Couchometer is a simple single-use app designed to increase productivity through timed reminders to take active breaks throughout the day. This is accomplished through light machine learning and battery-conscious polling of accelerometer data.
 
-#Motivation
+## Motivation
 
-I would force myself to study for the [Physics GRE](https://jaan.io/how-to-ace-the-gre-and-physics-gre) for strictly two hours a day. I would start a timer on my phone and pause it even if I got a drink of water or stood up for whatever reason. 
+I forced myself to study for the [Physics GRE](https://jaan.io/how-to-ace-the-gre-and-physics-gre) for strictly two hours a day. I would start a timer on my phone and pause it if I got a drink of water or stood up for whatever reason. 
 
-This meant I was starting and stopping the timer a lot. It hit me that this would be simple to make an app out of: just start timing and pause the timer when the accelerometer on the phone is 'in motion'. A more complicated extension would be to classify sitting on a bus or car, when the user is sitting but the accelerometer is in motion (or detecting when the phone is not in someone's pocket, e.g. with light levels like what the Moto X does).
+This meant I was starting and stopping the timer a lot. It hit me that this would be simple to make an app out of: just start timing and pause the timer when the accelerometer on the phone is 'in motion'. 
 
-#To-do
+A more complicated extension would be to classify sitting on a bus or car, when the user is sitting but the accelerometer is in motion (or detecting when the phone is not in someone's pocket, e.g. with light levels like what the Moto X does).
+
+## To-do
 
 * Fix 2 minute notification problem
 * Fix pause/resume button
