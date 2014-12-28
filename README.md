@@ -1,6 +1,8 @@
 Couchometer
 ===========
 
+![Image](http://i.imgur.com/ELg33sj.png)
+
 Meta-analyses of the effects of sitting on health are conclusive: sitting kills (c.f. http://www.popsci.com/science/gallery/2013-02/7-ways-sitting-will-kill-you/). 
 
 However, apart from expensive accelerometer-clad wristbands, no simple app exists to track periods of inactivity and motivate one to stand up and move more often. 
